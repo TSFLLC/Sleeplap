@@ -1,0 +1,17 @@
+Hi,
+
+I'm working on a Sleep Lab SharePoint Lists POC to replace an existing Excel/Access tracking process.
+
+I've already installed PowerShell 7 and PnP.PowerShell with company authorization, and I've prepared a PowerShell deployment script to create the lists, columns, and views.
+
+When testing the script, I found that PnP.PowerShell requires a Microsoft Entra Application (Client) ID to authenticate to SharePoint Online.
+
+Do we already have an approved Entra application/Client ID for PnP.PowerShell that I can use with my company account?
+
+If so, could you share the Client ID and let me know whether it's enabled for interactive authentication?
+
+I'm only trying to deploy a POC to a SharePoint site where I have the appropriate permissions. I don't need tenant-wide admin access or elevated privileges.
+
+If this is handled by another team, could you point me to the right person?
+
+Thanks!
