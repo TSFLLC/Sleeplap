@@ -1,0 +1,9 @@
+Yes, I'm referring to the Microsoft Entra Application (Client) ID.
+
+PnP.PowerShell is already installed. My deployment script uses Connect-PnPOnline with interactive authentication to create and configure SharePoint lists.
+
+From what I understand, current PnP.PowerShell versions require an Entra application registration for that authentication method.
+
+Could your team confirm whether I can use an existing approved Entra application for delegated SharePoint access, or whether a new application registration needs to be created?
+
+I'm already the owner of the target SharePoint site. I only need to automate list creation, configuration, and migration using my existing permissions, without tenant-wide administrative access.
