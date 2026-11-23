@@ -1,0 +1,69 @@
+
+
+
+{
+  "sections": [
+    {
+      "displayname": "Patient / Study",
+      "fields": [
+        "Patient Last Name",
+        "Patient First Name",
+        "Date of Study",
+        "Facility",
+        "Room",
+        "No Show / Cancelled",
+        "Study Type"
+      ]
+    },
+    {
+      "displayname": "Collection",
+      "fields": [
+        "Collection Tech",
+        "Referring Physician",
+        "Sleep Specialist"
+      ]
+    },
+    {
+      "displayname": "Scoring",
+      "fields": [
+        "Scoring Tech",
+        "Date Scored"
+      ]
+    },
+    {
+      "displayname": "Interpretation",
+      "fields": [
+        "Interpretation Received",
+        "Date Interpreted",
+        "Centrals",
+        "Complex"
+      ]
+    },
+    {
+      "displayname": "Results / Follow-up",
+      "fields": [
+        "Date Sent to Referring",
+        "Results Call Required",
+        "Results Call Done",
+        "Follow-up Required",
+        "Follow-up Visit",
+        "DME Company",
+        "Office Visit",
+        "Comments"
+      ]
+    },
+    {
+      "displayname": "Migration / Administration",
+      "fields": [
+        "Access Record ID"
+      ]
+    }
+  ]
+}
+
+
+
+
+
+
+
