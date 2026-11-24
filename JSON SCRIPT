@@ -165,4 +165,32 @@ Result call done
 
 
 
+Hi Martha,
+
+The main SharePoint Sleep Lab application is now built, including the registration form, clinical workflow views, physicians directory, and homepage.
+
+Before we proceed with user access and data migration, I would like to confirm a few things:
+
+Can you provide the list of the 25 users and their email addresses?
+
+Should everyone have permission to create and update records, or do some users need read-only access?
+
+Should users have access to all facilities or only their assigned facility?
+
+Who should be authorized to delete records and maintain the physicians and sleep specialists directories?
+
+Can you provide the current lists of referring physicians, sleep specialists, and DME companies?
+
+Should we migrate all historical Access records or only records from a specific period?
+
+Are there any specific reports or automatic reminders you would like the new application to provide?
+
+Who will be responsible for testing and approving the application before we go live?
+
+I would also like to schedule a short demonstration so you can review the application and confirm that it meets your team's operational needs.
+
+
+
+
+
 
