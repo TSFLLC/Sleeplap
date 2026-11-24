@@ -64,6 +64,8 @@
 
 
 
+=IF(OR(AND([Results Call Required]=TRUE,[Results Call Done]=FALSE),[Follow-up Required]="Not decided",AND([Follow-up Required]="Yes",[Follow-up Visit]=FALSE)),"Pending","Complete")
+
 
 
 
