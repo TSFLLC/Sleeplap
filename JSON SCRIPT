@@ -111,6 +111,57 @@ https://ardenthealthservices.sharepoint.com/sites/OKMC-HillcrestSleepLab/Lists/S
 
 
 
+Inter received.
+
+
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "span",
+  "style": {
+    "padding": "4px 12px",
+    "border-radius": "16px",
+    "font-weight": "600",
+    "background-color": "=if(@currentField == true, '#dff6dd', '#fff4ce')",
+    "color": "=if(@currentField == true, '#107c10', '#835c00')"
+  },
+  "txtContent": "=if(@currentField == true, 'Received', 'Pending')"
+}
+
+
+
+Result call done
+
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "span",
+  "style": {
+    "padding": "4px 12px",
+    "border-radius": "16px",
+    "font-weight": "600",
+    "background-color": "=if(@currentField == true, '#dff6dd', '#fff4ce')",
+    "color": "=if(@currentField == true, '#107c10', '#835c00')"
+  },
+  "txtContent": "=if(@currentField == true, 'Done', 'Not done')"
+}
+
+
+3. Follow-up Visit
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "span",
+  "style": {
+    "padding": "4px 12px",
+    "border-radius": "16px",
+    "font-weight": "600",
+    "background-color": "=if(@currentField == true, '#dff6dd', '#f3f2f1')",
+    "color": "=if(@currentField == true, '#107c10', '#605e5c')"
+  },
+  "txtContent": "=if(@currentField == true, 'Completed', 'Not done')"
+}
+
+
+
+
 
 
 
