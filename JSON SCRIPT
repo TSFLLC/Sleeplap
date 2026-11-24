@@ -87,6 +87,31 @@ https://ardenthealthservices.sharepoint.com/sites/OKMC-HillcrestSleepLab/Lists/S
 
 
 
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "display": "flex",
+    "align-items": "center"
+  },
+  "children": [
+    {
+      "elmType": "span",
+      "style": {
+        "padding": "4px 12px",
+        "border-radius": "16px",
+        "font-weight": "600",
+        "background-color": "=if(@currentField == 'Complete', '#dff6dd', if(@currentField == 'Pending', '#fff4ce', '#f3f2f1'))",
+        "color": "=if(@currentField == 'Complete', '#107c10', if(@currentField == 'Pending', '#835c00', '#605e5c'))"
+      },
+      "txtContent": "@currentField"
+    }
+  ]
+}
+
+
+
+
 
 
 
