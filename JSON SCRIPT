@@ -191,6 +191,23 @@ I would also like to schedule a short demonstration so you can review the applic
 
 
 
+Hi Martha,
+
+I still have the employee access spreadsheet you previously provided. It contains 24 employees, with administrative access for you and Jerome, and read/write access for the remaining 22 employees.
+
+I just need to confirm a few additional details:
+
+1. Is this employee list still current?
+2. Should all employees be able to view and update records across all facilities?
+3. Should regular employees be allowed to delete patient study records, or should deletion be restricted to administrators?
+4. Should administrative access for you and Jerome include managing physicians, specialists, DME companies and user access?
+5. Can you provide the current lists of referring physicians, sleep specialists and DME companies?
+6. Should we migrate all historical records from the existing Access database?
+
+The new SharePoint application is built and ready for an initial demonstration. I would like to walk you through it and get your feedback before we proceed with the data migration and production rollout.
+
+
+
 
 
 
