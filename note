@@ -28,3 +28,21 @@ Text.Combine(
 
 
 Pending Review,Approved - Same Physician,Different Physicians,Needs Investigation
+
+
+
+Hi Martha,
+
+While preparing the referring physician directory for the new Sleep Lab SharePoint system, I identified approximately 211 groups of potential duplicate physician names.
+
+Many physicians appear multiple times with different spelling, capitalization, name order, or professional credentials.
+
+I have attached an Excel file for your review. Could you please complete the following three columns?
+
+- **Approved Physician Name:** The correct name we should use in the new system.
+- **Review Status:** Confirm whether the variations represent the same physician, different physicians, or require further investigation.
+- **Review Comments:** Provide any additional clarification, especially when the names belong to different physicians.
+
+This validation will help us create a clean physician directory and accurately associate the 2026 patient study records with the correct referring physicians during migration.
+
+Thank you for your assistance.
