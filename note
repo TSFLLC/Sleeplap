@@ -10,3 +10,16 @@ let
     MatchKey = Text.Combine(Sorted, " ")
 in
     MatchKey
+
+
+
+
+
+Text.Combine(
+    List.Distinct(
+        List.RemoveNulls(
+            [#"Original records"][Referring Physician]
+        )
+    ),
+    " | "
+)
